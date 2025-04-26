@@ -17,3 +17,23 @@ let c =document.getElementsByTagName('h3')
  c[2].innerHTML="cybrom";
 console.log(c)
 
+
+
+// Again id
+let h= document.getElementById("host")
+console.log(h);
+h.textContent="Welcome to bhopal";
+h.innerHTML="<i>Welcome to Cybrom</i>";
+
+let ho=document.getElementById("host1")
+ho.innerHTML="Asmita";
+
+
+// classesss
+let hu= document.getElementsByClassName("host2")
+console.log(hu)
+hu.textContent="....................";
+hu.innerHTML="**************************";
+
+
+
